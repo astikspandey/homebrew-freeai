@@ -1,9 +1,9 @@
 class Freeai < Formula
   desc "CLI for generating and executing AI-generated shell scripts"
   homepage "https://github.com/astikspandey/freeai"
-  url "https://raw.githubusercontent.com/astikspandey/freeai/v1.0.0/freeai"
-  sha256 "93c723b63118a1068cc28cc79cf4317462167dd88e744ea3d687b9fd0ae0ac76"
-  version "1.0.0"
+  url "https://raw.githubusercontent.com/astikspandey/freeai/v1.0.1/freeai"
+  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  version "1.0.1"
   license "MIT"
 
   def install
@@ -12,8 +12,7 @@ class Freeai < Formula
 
   def caveats
     <<~EOS
-      FreeAI requires a local API server running at:
-        http://localhost:5000
+    "None!"
 
       Usage:
         freeai <context_file> <prompt>
