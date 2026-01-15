@@ -1,9 +1,9 @@
 class Freeai < Formula
   desc "CLI for generating and executing AI-generated shell scripts"
   homepage "https://github.com/astikspandey/freeai"
-  url "https://raw.githubusercontent.com/astikspandey/freeai/v1.0.1.2/freeai"
-  sha256 "f2bcc2a36bde572afc966e6c78cff788c4e68717dbd1a51e2d261da98b8b39ea"
-  version "1.0.1.2"
+  url "https://raw.githubusercontent.com/astikspandey/freeai/v1.0.1.3/freeai"
+  sha256 "725b81df272d89dbe2e97fb599206af81478e731b21382e5a5b53d8b0529f2a6"
+  version "1.0.1.3"
   license "MIT"
 
   def install
